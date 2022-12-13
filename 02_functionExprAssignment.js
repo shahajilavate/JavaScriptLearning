@@ -46,7 +46,7 @@ console.log("5_String");
 var StringIs = "JS the most popular language";
 console.log("String:", StringIs);
 console.log("Total character in the string is=", StringIs.length);
-console.log("character at index 6 = " , StringIs.charAt(6));
+console.log("character at index 6 = ", StringIs.charAt(6));
 var lenghttotal = StringIs.length;
 console.log("character at index 11 =", StringIs.charAt(11));
 var lenghttotal = StringIs.length;
