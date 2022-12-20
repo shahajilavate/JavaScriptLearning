@@ -6,3 +6,8 @@ console.log("Result of  (1==[1])         ",             1==[1]);
 
 console.log("Result of  (1==true)        ",            1==true);
 console.log("Result of  (1==`1`)         ",             1==`1`);
+
+
+
+
+
