@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Local Storage</title>
-  </head>
-  <body>
-    <h2>Local Storage</h2>
-    <script>
-      window.localStorage.getItem("Name", "Shahaji Ramchnadra Lavate");
-      window.localStorage.getItem("Name");
-      window.localStorage.getItem("City", "Sangola");
-      window.localStorage.getItem("PinCode", 413309);
-      window.localStorage.getItem("District", "Solapur");
-    </script>
-  </body>
+    <head>
+        <title> Loacal Storage  </title>
+    </head>
+    <body>
+        <h2> Local Storage </h2>
+        <script>
+            console.log("Local Storage");
+            window.localStorage.setItem("Name","Shahaji Lavate");
+            alert(localStorage.getItem('Name'))
+            window.localStorage.setItem("City", "Sangola");
+            alert(localStorage.getItem('City'))
+            window.localStorage.setItem("PinCode", 413309);
+            alert(localStorage.getItem('PinCode'))
+            window.localStorage.setItem("Ditrict","Solapur");
+            alert(localStorage.getItem('Ditrict'))
+            window.localStorage.removeItem("City")
+           // window.sessionStorage.clear();
+        </script>
+</body>
 </html>
