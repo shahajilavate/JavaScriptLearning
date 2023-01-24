@@ -34,10 +34,10 @@ array.forEach( (currentValue) => {
 console.log(`---------------------------------------------------------------------------------------------------------------`);
 console.log(`5.Find sum of all element from array_numbers and log on sum value`);
 const array1 = [1,-7,40,502,-77,91,0,108,89,-601];
-const sum =array1.reduce((accumulator,value)=>{
-    return accumulator+value;
-
-},0);
+var sum=0;
+array1.forEach((element)=>{
+    sum+=element;
+})
 console.log(`sum of all the values in the array =`,sum);
 
 console.log(`---------------------------------------------------------------------------------------------------------------`);
